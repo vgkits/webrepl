@@ -1,3 +1,12 @@
+VGKits Fork
+==============================
+
+This fork of https://github.com/micropython/webrepl allows issues from an ESP-hosted WebREPL to be recorded by users of https://vgkits.org ESP-based Python boards, configured as per https://github.com/vgkits/webreplserver . 
+
+The adoption of WebREPL by educators and learners through @vgkits is expected to raise issues which are not relevant to the mainline WebREPL. By forking, we are avoiding polluting the main issue tracker with these niche issues. Issues which ARE judged to be relevant will be reposted upstream, and PRs may follow.
+
+The upstream repository has seen no commits since September 2017 at the time of writing. With this repository being the canonical WebREPL implementation for VGKits it is a natural home for any tweaks or fixes. In turn, these can be cherry picked by the upstream WebREPL.
+
 WebREPL client for MicroPython
 ==============================
 
